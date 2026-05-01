@@ -71,7 +71,7 @@ Unlike traditional black-box models, this system provides **visual explanations*
 
 ## 🖼️ Sample Output
 
-*(Add images here — very important)*
+*                 *
 
 | Input Image | Prediction | Grad-CAM Output |
 |------------|-----------|-----------------|
