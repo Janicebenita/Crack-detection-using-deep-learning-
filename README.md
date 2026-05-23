@@ -1,114 +1,186 @@
-# 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
-
-## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
-
-<p align="center">
-  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="85%">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-</p>
-
----
-
-## 📊 Performance Highlights
-
-| Metric | Value |
-|---|---|
-| Accuracy | 95.7% |
-| Model | ResNet-18 |
-| Explainability | Grad-CAM |
-| Application | Infrastructure Inspection |
-
----
-
-## 📌 Project Overview
-
-Traditional infrastructure crack inspection is time-consuming and labor-intensive. This project automates crack detection using deep learning and explainable AI techniques to improve inspection efficiency and reliability in real-world environments.
-
-This project introduces an **AI-powered automated crack detection system** capable of detecting cracks in concrete surfaces using:
-
-✅ Deep Learning  
-✅ Computer Vision  
-✅ Explainable AI (Grad-CAM)  
-
-The system uses a fine-tuned **ResNet-18 Convolutional Neural Network (CNN)** to classify concrete surface images into:
-
-✔️ Crack  
-✔️ No Crack  
-
-Additionally, the project integrates **Grad-CAM Explainable AI visualization** to highlight the regions responsible for predictions, improving model transparency and engineering trust.
-
----
-
-# 🌟 Key Features
+# 🚧 AI-Powered Concrete Crack Detection & Localization System
+## 🧠 YOLOv8 + ResNet-18 Hybrid Deep Learning Pipeline with Explainable AI
 
 <div align="center">
 
-| Feature | Description |
-|---|---|
-| ✅ 95.7% Accuracy | High-performance crack classification |
-| 🧠 Explainable AI | Grad-CAM visualization |
-| ⚡ Automated Inspection | Faster infrastructure assessment |
-| 🔍 Crack Localization | Highlights crack regions visually |
-| 📈 Scalable Pipeline | Suitable for large-scale deployment |
-| 🌐 Flask Web Interface | Interactive AI inspection system |
-| 🏗️ Industry-Oriented | Infrastructure inspection focused |
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/PyTorch-Deep_Learning-red?style=for-the-badge&logo=pytorch"/>
+<img src="https://img.shields.io/badge/YOLOv8-Object_Detection-yellow?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ResNet18-Classification_Model-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Explainable_AI-GradCAM-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenCV-Computer_Vision-orange?style=for-the-badge&logo=opencv"/>
+<img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
+
+<br><br>
+
+# 🏗️ AI-Based Concrete Crack Detection & Localization System
+
+### Intelligent Infrastructure Inspection using Deep Learning, Object Detection & Explainable AI
+
+---
+
+### 🚀 Powered by YOLOv8 • ResNet-18 • Grad-CAM • PyTorch • Flask
 
 </div>
 
 ---
 
-# 🖼️ System Demonstration
+# 📌 Project Overview
 
-<p align="center">
-  <img src="project_overview.png" width="80%"/>
-</p>
+Inspection of concrete structures is a critical process in infrastructure maintenance. Traditional manual inspection methods are:
+
+❌ Time-consuming  
+❌ Expensive  
+❌ Subjective  
+❌ Difficult to scale  
+❌ Prone to human error  
+
+To address these challenges, this project introduces an **AI-powered hybrid crack detection and localization system** that combines:
+
+✅ YOLOv8 Object Detection  
+✅ ResNet-18 Deep Feature Learning  
+✅ Explainable AI using Grad-CAM  
+✅ Computer Vision Techniques  
+
+The system automatically detects cracks, localizes damaged regions, classifies crack presence, and visually explains model predictions.
 
 ---
 
-# 🧠 Solution Workflow
+# 🌟 Key Highlights
+
+<div align="center">
+
+| Feature | Description |
+|---|---|
+| ✅ Hybrid AI Pipeline | YOLOv8 + ResNet-18 |
+| 🎯 Crack Localization | Bounding-box crack detection |
+| 🧠 Explainable AI | Grad-CAM visualization |
+| ⚡ Automated Inspection | Faster infrastructure analysis |
+| 📈 95.7% Accuracy | High-performance crack classification |
+| 🌐 Flask-Based Interface | Interactive web application |
+| 🏗️ Infrastructure Focused | Real-world engineering use case |
+
+</div>
+
+---
+
+# 🧠 Revised System Workflow
 
 <div align="center">
 
 ```text
-Concrete Surface Image
-            ↓
-     Image Preprocessing
-            ↓
-    ResNet-18 Classification
-            ↓
-      Crack Prediction
-            ↓
-     Grad-CAM Explainability
-            ↓
-   Crack Region Visualization
-            ↓
-       Final Prediction Output
+Input Image
+      ↓
+Image Preprocessing
+      ↓
+YOLOv8 + ResNet-18 Hybrid Pipeline
+      ↓
+Crack Detection + Classification
+      ↓
+Grad-CAM Explainability
+      ↓
+Final Crack Visualization
 ```
 
 </div>
 
 ---
 
-# 🔬 Deep Learning Model
+# 🖼️ Complete System Architecture
 
-<div align="center">
+<p align="center">
+  <img src="images/architecture_pipeline.png" width="1000"/>
+</p>
 
-| Component | Details |
-|---|---|
-| Model Architecture | ResNet-18 |
-| Framework | PyTorch |
-| Task | Binary Classification |
-| Classes | Crack / No Crack |
-| Explainability | Grad-CAM |
-| Domain | Infrastructure Inspection |
+---
 
-</div>
+# 🔍 How the System Works
+
+## 📥 1. Input Image
+Concrete surface images are uploaded into the system for inspection.
+
+---
+
+## ⚙️ 2. Image Preprocessing
+
+The preprocessing pipeline includes:
+
+- Image Resizing
+- Normalization
+- Data Augmentation
+- Noise Reduction
+
+These steps improve model robustness and detection performance.
+
+---
+
+## 🧠 3. Hybrid Deep Learning Pipeline
+
+### 🔹 YOLOv8 Object Detection
+
+YOLOv8 is used for:
+
+✔️ Crack localization  
+✔️ Bounding box generation  
+✔️ Multi-crack region detection  
+
+---
+
+### 🔹 ResNet-18 Backbone
+
+ResNet-18 is used for:
+
+✔️ Feature extraction  
+✔️ Crack classification  
+✔️ Deep representation learning  
+
+The combination of YOLOv8 + ResNet-18 improves both:
+
+- Detection accuracy
+- Crack localization capability
+
+---
+
+## 📊 4. Detection & Classification
+
+The system:
+
+- Detects crack regions
+- Classifies cracked/non-cracked surfaces
+- Extracts individual crack segments
+- Saves highlighted crack outputs
+
+---
+
+## 🧠 5. Explainable AI with Grad-CAM
+
+Grad-CAM visualization highlights the regions influencing predictions.
+
+This improves:
+
+✅ Transparency  
+✅ Interpretability  
+✅ Engineering trustworthiness  
+✅ Validation support  
+
+---
+
+## 🖼️ 6. Final Visualization
+
+The final output includes:
+
+✔️ Bounding-box crack localization  
+✔️ Crack-highlighted regions  
+✔️ Individual crack segmentation  
+✔️ Detection confidence visualization  
+
+---
+
+# 🖼️ System Demonstration
+
+<p align="center">
+  <img src="project_overview.png" width="1000"/>
+</p>
 
 ---
 
@@ -123,7 +195,6 @@ Concrete Surface Image
 | Recall | 96.20% |
 | F1-Score | 95.60% |
 | AUC Score | 0.974 |
-| Classification | Crack / No Crack |
 
 </div>
 
@@ -131,72 +202,51 @@ Concrete Surface Image
 
 # 📌 Confusion Matrix Analysis
 
-The confusion matrix demonstrates strong classification capability with:
+The confusion matrix demonstrates strong crack classification capability.
+
+### Key Observations:
 
 ✔️ High True Positive Rate  
-✔️ Strong Non-Crack Classification  
+✔️ Strong Non-Crack Detection  
 ✔️ Low False Positives  
-✔️ Balanced Prediction Performance  
+✔️ Balanced Classification Performance  
 
 <p align="center">
-  <img src="confusion_matrix.png" width="45%"/>
+  <img src="confusion_matrix.png" width="900"/>
 </p>
 
 ---
 
 # 📈 ROC Curve & AUC Analysis
 
-The ROC Curve demonstrates the discriminative capability of the ResNet-18 model.
+The ROC Curve demonstrates excellent crack vs non-crack discrimination capability.
 
-### Key Achievements:
+### Achievements:
 - AUC Score: **0.974**
-- Excellent crack vs non-crack separability
-- Strong sensitivity and specificity balance
+- High sensitivity & specificity balance
+- Strong classification reliability
 
 <p align="center">
-  <img src="roc_curve_analysis.png" width="45%"/>
+  <img src="roc_curve_analysis.png" width="1000"/>
 </p>
 
 ---
 
 # 🧠 Explainable AI using Grad-CAM
 
-Unlike traditional black-box AI systems, this project integrates **Grad-CAM Explainable AI** to visually interpret model predictions.
+Unlike traditional black-box systems, this project integrates **Grad-CAM Explainable AI** to visually interpret model decisions.
 
 ## 🔍 Benefits
 
 ✅ Highlights crack-affected regions  
-✅ Improves model transparency  
-✅ Assists engineers during validation  
-✅ Enhances trustworthiness of predictions  
+✅ Improves AI transparency  
+✅ Assists engineers during inspection  
+✅ Enhances deployment trustworthiness  
 ✅ Supports interpretable infrastructure AI systems  
 
 ---
 
-# 🏗️ Crack Detection Results
-
-## ✅ Crack Prediction
-The model successfully:
-
-- Detected visible cracks accurately
-- Localized crack regions effectively
-- Highlighted damaged areas visually
-- Identified multiple crack patterns
-
----
-
-## ✅ Non-Crack Prediction
-The system correctly:
-
-- Classified normal concrete surfaces
-- Reduced unnecessary false alarms
-- Improved deployment reliability
-
----
-
 # 💼 Real-World Operational Impact
-
-The following estimates were derived based on industry-level deployment discussions and evaluation scenarios.
 
 <div align="center">
 
@@ -210,13 +260,11 @@ The following estimates were derived based on industry-level deployment discussi
 
 </div>
 
-> 📌 These values represent estimated deployment projections and may vary depending on infrastructure scale and inspection conditions.
-
 ---
 
 # 📁 Dataset Information
 
-## 📌 Dataset Type
+## 📌 Dataset
 Concrete Surface Crack Image Dataset
 
 ## 📌 Classes
@@ -224,10 +272,9 @@ Concrete Surface Crack Image Dataset
 - No Crack
 
 ## 📌 Preprocessing Techniques
-- Image Resizing
+- Resizing
 - Normalization
 - Data Augmentation
-- Tensor Conversion
 - Noise Reduction
 
 ---
@@ -240,6 +287,7 @@ Concrete Surface Crack Image Dataset
 |---|---|
 | 💻 Programming | Python |
 | 🧠 Deep Learning | PyTorch |
+| 🎯 Object Detection | YOLOv8 |
 | 👁️ Computer Vision | OpenCV |
 | 🌐 Web Framework | Flask |
 | 📊 Visualization | Matplotlib |
@@ -253,9 +301,10 @@ Concrete Surface Crack Image Dataset
 
 - Deep Learning
 - Computer Vision
+- Object Detection
 - Explainable AI
-- Transfer Learning
 - CNN Architectures
+- Transfer Learning
 - Image Classification
 - Infrastructure AI
 
@@ -272,6 +321,7 @@ AI-Powered-Concrete-Crack-Detection/
 ├── static/
 ├── templates/
 ├── images/
+│   ├── architecture_pipeline.png
 │   ├── project_overview.png
 │   ├── confusion_matrix.png
 │   └── roc_curve_analysis.png
@@ -327,14 +377,51 @@ http://127.0.0.1:5000
 
 ---
 
-# 🔮 Future Enhancements
+# 🚀 Future Upgradation & Research Scope
 
-- 🎥 Real-Time Video Crack Detection
-- 🚁 Drone-Based Inspection
-- 📱 Mobile Deployment
-- ⚡ Edge AI Optimization
-- ☁️ Cloud Deployment
-- 📊 Multi-Class Crack Severity Analysis
+This project can be further enhanced into a large-scale industrial infrastructure inspection platform.
+
+## 🔮 Planned Enhancements
+
+### 🚁 Drone-Based Crack Inspection
+Integrate UAV/drone imaging for automated bridge and building inspection.
+
+---
+
+### 🎥 Real-Time Video Crack Detection
+Enable live crack detection from video streams.
+
+---
+
+### 📱 Mobile & Edge AI Deployment
+Deploy lightweight optimized models on:
+
+- Mobile devices
+- Raspberry Pi
+- Edge AI systems
+
+---
+
+### ☁️ Cloud-Based Monitoring Dashboard
+Develop centralized cloud infrastructure monitoring systems.
+
+---
+
+### 📊 Multi-Class Crack Severity Analysis
+Extend system to classify:
+
+- Minor cracks
+- Moderate cracks
+- Severe structural damage
+
+---
+
+### 🛰️ Smart City Infrastructure Integration
+Future integration with:
+
+- Smart surveillance systems
+- IoT sensors
+- Predictive maintenance platforms
 
 ---
 
@@ -348,14 +435,7 @@ This project was developed for educational, research, and industry-oriented lear
 
 </div>
 
-The project focuses on:
-
-- AI-based Infrastructure Inspection
-- Deep Learning Applications
-- Computer Vision Solutions
-- Explainable AI for Engineering Systems
-
-Special thanks to **M/s Larsen & Toubro – Divisional Corporate** for their valuable technical guidance, domain insights, and mentorship throughout the project development process.
+Special thanks to **M/s Larsen & Toubro – Divisional Corporate** for their technical guidance, domain expertise, and mentorship throughout the project development process.
 
 ---
 
@@ -374,12 +454,12 @@ Unauthorized commercial redistribution or misuse of project assets or proprietar
 
 # ⭐ Project Highlights
 
-✅ Real-world infrastructure AI application  
-✅ Explainable AI integration  
-✅ Industry-oriented computer vision solution  
-✅ High-performance deep learning model  
-✅ Scalable and interpretable AI pipeline  
-✅ Deployment-focused architecture  
+✅ Hybrid YOLOv8 + ResNet-18 Pipeline  
+✅ Explainable AI Integration  
+✅ Real-world Infrastructure AI Application  
+✅ Automated Crack Localization  
+✅ Industry-Oriented Deep Learning Solution  
+✅ Scalable Inspection Architecture  
 
 ---
 
@@ -433,7 +513,7 @@ If you found this project useful:
 
 # 🏗️ Building Smarter Infrastructure Inspection using AI
 
-### Powered by Deep Learning & Explainable AI
+### Powered by YOLOv8, ResNet-18 & Explainable AI
 
 ⭐ Star This Repository If You Like The Project ⭐
 
