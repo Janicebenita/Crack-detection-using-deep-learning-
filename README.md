@@ -1,73 +1,109 @@
 # 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
-## Deep Learning + Computer Vision for Automated Infrastructure Inspection
+## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/PyTorch-Deep_Learning-red?style=for-the-badge&logo=pytorch"/>
+<img src="https://img.shields.io/badge/OpenCV-Computer_Vision-green?style=for-the-badge&logo=opencv"/>
+<img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
+<img src="https://img.shields.io/badge/Explainable_AI-GradCAM-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Infrastructure-AI_Inspection-orange?style=for-the-badge"/>
+
+<br><br>
+
+# 🏗️ AI-Based Automated Concrete Crack Detection System
+
+### Intelligent Infrastructure Inspection using Deep Learning & Explainable AI
+
+---
+
+### 🚀 Built using ResNet-18 • Grad-CAM • PyTorch • Flask
+
+</div>
+
+---
+
+# 📌 Project Overview
+
+Manual inspection of concrete structures is often:
+
+❌ Time-consuming  
+❌ Expensive  
+❌ Subjective  
+❌ Difficult to scale  
+❌ Dependent on human expertise  
+
+Traditional infrastructure inspection workflows struggle with consistency, efficiency, and operational cost.
+
+This project introduces an **AI-powered automated crack detection system** capable of detecting cracks in concrete surfaces using:
+
+✅ Deep Learning  
+✅ Computer Vision  
+✅ Explainable AI (Grad-CAM)  
+
+The system uses a fine-tuned **ResNet-18 Convolutional Neural Network (CNN)** to classify concrete surface images into:
+
+✔️ Crack  
+✔️ No Crack  
+
+Additionally, the project integrates **Grad-CAM Explainable AI visualization** to highlight the regions responsible for predictions, improving model transparency and engineering trust.
+
+---
+
+# 🌟 Key Features
+
+<div align="center">
+
+| Feature | Description |
+|---|---|
+| ✅ 95.7% Accuracy | High-performance crack classification |
+| 🧠 Explainable AI | Grad-CAM visualization |
+| ⚡ Automated Inspection | Faster infrastructure assessment |
+| 🔍 Crack Localization | Highlights crack regions visually |
+| 📈 Scalable Pipeline | Suitable for large-scale deployment |
+| 🌐 Flask Web Interface | Interactive AI inspection system |
+| 🏗️ Industry-Oriented | Infrastructure inspection focused |
+
+</div>
+
+---
+
+# 🖼️ System Demonstration
 
 <p align="center">
-  <img src="Gemini_Generated_Image_nfnhe4nfnhe4nfnh.png" width="1000"/>
+  <img src="project_overview.png" width="1000"/>
 </p>
 
 ---
 
-# 📌 Overview
+# 🧠 Solution Workflow
 
-Manual inspection of concrete structures is time-consuming, subjective, and expensive. Traditional infrastructure inspection workflows depend heavily on human expertise, making large-scale inspection difficult, inconsistent, and inefficient.
+<div align="center">
 
-This project presents an **AI-powered automated crack detection system** that uses **Deep Learning, Computer Vision, and Explainable AI** to identify cracks in concrete surfaces accurately and efficiently.
+```text
+Concrete Surface Image
+            ↓
+     Image Preprocessing
+            ↓
+    ResNet-18 Classification
+            ↓
+      Crack Prediction
+            ↓
+     Grad-CAM Explainability
+            ↓
+   Crack Region Visualization
+            ↓
+       Final Prediction Output
+```
 
-The system is built using a fine-tuned **ResNet-18 Convolutional Neural Network (CNN)** capable of classifying images into:
-
-- ✅ Crack
-- ✅ No Crack
-
-To improve model transparency and engineering trustworthiness, the project integrates **Grad-CAM Explainable AI visualization**, allowing users to understand which regions influenced the prediction.
-
----
-
-# 🚀 Key Features
-
-- ✅ 95.7% Crack Classification Accuracy
-- 🧠 Explainable AI using Grad-CAM
-- ⚡ Automated crack inspection workflow
-- 🏗️ Infrastructure inspection focused solution
-- 🔍 Crack localization and highlighting
-- 📉 Reduced manual inspection effort
-- 📈 Scalable inspection pipeline
-- 🌐 Interactive web-based interface
+</div>
 
 ---
 
-# 🎯 Problem Statement
+# 🔬 Deep Learning Model
 
-Traditional concrete crack inspection methods:
-
-- Require manual inspection by experts
-- Are slow and labor-intensive
-- Lack consistency and scalability
-- Increase operational costs
-- Are prone to subjective human judgment
-
-This project solves these limitations using an automated AI-driven inspection system.
-
----
-
-# 🧠 Solution Architecture
-
-## System Workflow
-
-Image Upload
-      ↓
-Image Preprocessing
-      ↓
-ResNet-18 Classification
-      ↓
-Grad-CAM Explainability
-      ↓
-Crack Localization
-      ↓
-Final Prediction Output
-
----
-
-# 🔧 Model Details
+<div align="center">
 
 | Component | Details |
 |---|---|
@@ -78,37 +114,13 @@ Final Prediction Output
 | Explainability | Grad-CAM |
 | Domain | Infrastructure Inspection |
 
----
-
-# 📊 Results & Performance Evaluation
-
-## Model Performance
-
-| Metric | Value |
-|---|---|
-| Accuracy | 95.7% |
-| Model Type | CNN (ResNet-18) |
-| Classification | Binary |
-| Output | Crack / No Crack |
-| Explainability | Grad-CAM |
+</div>
 
 ---
-## 📌 Confusion Matrix Analysis
 
-The confusion matrix below demonstrates the classification performance of the fine-tuned ResNet-18 crack detection model.
+# 📊 Model Performance
 
-Key observations:
-
-- High True Positive (TP) rate for crack detection
-- Strong True Negative (TN) performance for non-crack classification
-- Low False Positive (FP) and False Negative (FN) rates
-- Balanced classification performance across both classes
-
-<p align="center">
-  <img src="confusion_matrix.png" width="900"/>
-</p>
----
-### Performance Summary
+<div align="center">
 
 | Metric | Score |
 |---|---|
@@ -116,164 +128,172 @@ Key observations:
 | Precision | 95.10% |
 | Recall | 96.20% |
 | F1-Score | 95.60% |
-| Specificity | 95.28% |
-| Total Samples | 10,034 |
+| AUC Score | 0.974 |
+| Classification | Crack / No Crack |
+
+</div>
 
 ---
 
-## 📈 ROC Curve & AUC Analysis
+# 📌 Confusion Matrix Analysis
 
-The ROC (Receiver Operating Characteristic) curve demonstrates the discriminative capability of the ResNet-18 model.
+The confusion matrix demonstrates strong classification capability with:
 
-The model achieved an outstanding:
+✔️ High True Positive Rate  
+✔️ Strong Non-Crack Classification  
+✔️ Low False Positives  
+✔️ Balanced Prediction Performance  
 
+<p align="center">
+  <img src="confusion_matrix.png" width="900"/>
+</p>
+
+---
+
+# 📈 ROC Curve & AUC Analysis
+
+The ROC Curve demonstrates the discriminative capability of the ResNet-18 model.
+
+### Key Achievements:
 - AUC Score: **0.974**
-- High sensitivity and specificity balance
-- Strong crack vs non-crack separability
-
-The ROC analysis confirms that the proposed model performs significantly better than random classification and maintains excellent predictive capability across varying thresholds.
+- Excellent crack vs non-crack separability
+- Strong sensitivity and specificity balance
 
 <p align="center">
   <img src="roc_curve_analysis.png" width="1000"/>
 </p>
 
-### ROC Analysis Highlights
+---
 
-| Metric | Value |
-|---|---|
-| AUC Score | 0.974 |
-| Sensitivity (TPR) | 0.962 |
-| Specificity (TNR) | 0.929 |
-| Precision (PPV) | 0.951 |
-| Accuracy | 0.957 |
-| Optimal Threshold | 0.42 |
+# 🧠 Explainable AI using Grad-CAM
+
+Unlike traditional black-box AI systems, this project integrates **Grad-CAM Explainable AI** to visually interpret model predictions.
+
+## 🔍 Benefits
+
+✅ Highlights crack-affected regions  
+✅ Improves model transparency  
+✅ Assists engineers during validation  
+✅ Enhances trustworthiness of predictions  
+✅ Supports interpretable infrastructure AI systems  
 
 ---
-## Crack Detection Results
 
-### ✅ Cracked Surface Prediction
+# 🏗️ Crack Detection Results
 
+## ✅ Crack Prediction
 The model successfully:
 
-- Detected visible concrete cracks accurately
+- Detected visible cracks accurately
 - Localized crack regions effectively
-- Highlighted crack-affected areas visually
-- Identified multiple crack regions in challenging surfaces
+- Highlighted damaged areas visually
+- Identified multiple crack patterns
 
-### ✅ Non-Crack Prediction
+---
 
+## ✅ Non-Crack Prediction
 The system correctly:
 
 - Classified normal concrete surfaces
-- Avoided unnecessary false crack predictions
-- Improved inspection reliability for deployment scenarios
-
----
-
-## 🧠 Explainable AI Results
-
-The Grad-CAM explainability module:
-
-- Highlighted regions responsible for predictions
-- Improved model interpretability
-- Reduced black-box behavior
-- Increased engineering trust in AI decisions
+- Reduced unnecessary false alarms
+- Improved deployment reliability
 
 ---
 
 # 💼 Real-World Operational Impact
 
-The following operational estimates were derived based on industry-level deployment discussions and evaluation scenarios provided by L&T during internship.
+The following estimates were derived based on industry-level deployment discussions and evaluation scenarios.
+
+<div align="center">
 
 | Operational Area | Improvement |
 |---|---|
-| Inspection Time | Reduced from 25–30 days → 3–5 days |
-| Workforce Requirement | Reduced from 3–5 inspectors → 1–2 technicians |
-| Operational Cost | Approximately 72% reduction |
-| Estimated Savings | Approximately ₹9L per site |
-| ROI | Approximately 270% |
+| Inspection Time | 25–30 Days → 3–5 Days |
+| Workforce Requirement | 3–5 Inspectors → 1–2 Technicians |
+| Operational Cost Reduction | ~72% |
+| Estimated Savings | ~₹9 Lakhs per Site |
+| Estimated ROI | ~270% |
 
-> Note: The above values represent estimated industrial deployment projections and may vary depending on infrastructure scale, environmental conditions, and inspection workflows.
+</div>
 
----
-
-# 🖼️ System Demonstration
-
-The following system outputs demonstrate:
-
-- ✅ Web-based crack detection interface
-- ✅ Crack prediction example
-- ✅ Explainable AI visualization using Grad-CAM
-- ✅ Non-crack prediction example
-
-<p align="center">
-  <img src="project_overview.png" width="1000"/>
-</p>
+> 📌 These values represent estimated deployment projections and may vary depending on infrastructure scale and inspection conditions.
 
 ---
 
-# 🔍 Explainable AI with Grad-CAM
+# 📁 Dataset Information
 
-Unlike traditional black-box deep learning systems, this project provides visual explanations for every prediction.
-
-## Benefits of Explainable AI
-
-- Highlights crack-affected regions
-- Improves transparency
-- Assists engineers during validation
-- Enhances deployment reliability
-- Supports interpretable infrastructure AI systems
-
----
-
-# 📁 Dataset
-
-## Dataset Type
-
+## 📌 Dataset Type
 Concrete Surface Crack Image Dataset
 
-## Classes
-
+## 📌 Classes
 - Crack
 - No Crack
 
-## Preprocessing Techniques
-
-- Image resizing
+## 📌 Preprocessing Techniques
+- Image Resizing
 - Normalization
-- Data augmentation
-- Tensor conversion
-- Noise reduction
+- Data Augmentation
+- Tensor Conversion
+- Noise Reduction
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Technology Stack
 
-## Languages & Frameworks
+<div align="center">
 
-- Python
-- PyTorch
-- OpenCV
-- NumPy
-- Matplotlib
-- Flask
+| Category | Technologies |
+|---|---|
+| 💻 Programming | Python |
+| 🧠 Deep Learning | PyTorch |
+| 👁️ Computer Vision | OpenCV |
+| 🌐 Web Framework | Flask |
+| 📊 Visualization | Matplotlib |
+| 🔍 Explainability | Grad-CAM |
+
+</div>
 
 ---
 
-## Concepts Used
+# 🧠 Concepts Used
 
 - Deep Learning
 - Computer Vision
 - Explainable AI
-- CNN Architectures
 - Transfer Learning
+- CNN Architectures
 - Image Classification
+- Infrastructure AI
+
+---
+
+# 📂 Project Structure
+
+```bash
+AI-Powered-Concrete-Crack-Detection/
+│
+├── dataset/
+├── models/
+├── crack_outputs/
+├── static/
+├── templates/
+├── images/
+│   ├── project_overview.png
+│   ├── confusion_matrix.png
+│   └── roc_curve_analysis.png
+│
+├── app.py
+├── crack_detection.ipynb
+├── model.pth
+├── requirements.txt
+└── README.md
+```
 
 ---
 
 # ⚙️ Installation & Setup
 
-## Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/Janicebenita/AI-Powered-Concrete-Crack-Detection-System-with-Explainable-AI-Grad-CAM-.git
@@ -281,7 +301,7 @@ git clone https://github.com/Janicebenita/AI-Powered-Concrete-Crack-Detection-Sy
 
 ---
 
-## Navigate to Project Directory
+## 2️⃣ Navigate to Project Directory
 
 ```bash
 cd AI-Powered-Concrete-Crack-Detection-System-with-Explainable-AI-Grad-CAM-
@@ -289,7 +309,7 @@ cd AI-Powered-Concrete-Crack-Detection-System-with-Explainable-AI-Grad-CAM-
 
 ---
 
-## Install Dependencies
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -297,7 +317,7 @@ pip install -r requirements.txt
 
 ---
 
-## Run Application
+## 4️⃣ Run Application
 
 ```bash
 python app.py
@@ -305,45 +325,56 @@ python app.py
 
 ---
 
-# 📁 Project Structure
+# 🌐 Open in Browser
 
 ```text
-├── dataset/
-├── models/
-├── crack_outputs/
-├── static/
-├── templates/
-├── images/
-│   └── project_overview.png
-├── app.py
-├── requirements.txt
-├── README.md
-└── model.pth
+http://127.0.0.1:5000
 ```
-# 🔮 Future Improvements
-
-- Real-time video crack detection
-- Drone-based infrastructure inspection
-- Edge-device optimization
-- Mobile deployment
-- Multi-class crack severity analysis
-- Cloud deployment pipeline
 
 ---
 
-# 👩‍💻 Author
+# 🔮 Future Enhancements
 
-## Janice Benita F
-
-B.Tech – Information Technology (2023-2027 batch)  
-Machine Learning & Computer Vision Enthusiast
+- 🎥 Real-Time Video Crack Detection
+- 🚁 Drone-Based Inspection
+- 📱 Mobile Deployment
+- ⚡ Edge AI Optimization
+- ☁️ Cloud Deployment
+- 📊 Multi-Class Crack Severity Analysis
 
 ---
 
-## 🔗 Connect
+# 📜 License & Acknowledgement
 
-GitHub:  
-https://github.com/Janicebenita
+This project was developed for educational, research, and industry-oriented learning purposes under the guidance and support of:
+
+<div align="center">
+
+# 🏢 M/s Larsen & Toubro – Divisional Corporate
+
+</div>
+
+The project focuses on:
+
+- AI-based Infrastructure Inspection
+- Deep Learning Applications
+- Computer Vision Solutions
+- Explainable AI for Engineering Systems
+
+Special thanks to **M/s Larsen & Toubro – Divisional Corporate** for their valuable technical guidance, domain insights, and mentorship throughout the project development process.
+
+---
+
+## 📌 Usage Notice
+
+This repository is intended for:
+
+- Educational Purposes
+- Research & Learning
+- Portfolio Demonstration
+- Non-commercial AI Exploration
+
+Unauthorized commercial redistribution or misuse of project assets or proprietary insights is discouraged.
 
 ---
 
@@ -351,18 +382,65 @@ https://github.com/Janicebenita
 
 ✅ Real-world infrastructure AI application  
 ✅ Explainable AI integration  
-✅ Strong operational impact metrics  
-✅ Industry-focused computer vision solution  
-✅ Scalable and interpretable ML pipeline  
-✅ Deployment-oriented deep learning project
----
-
-# ⭐ If You Like This Project
-
-If you found this project useful or interesting:
-
-⭐ Give it a star on GitHub  
-🍴 Feel free to fork the repository  
-💡 Contributions, suggestions, and feedback are always welcome!
+✅ Industry-oriented computer vision solution  
+✅ High-performance deep learning model  
+✅ Scalable and interpretable AI pipeline  
+✅ Deployment-focused architecture  
 
 ---
+
+# 👩‍💻 Author
+
+<div align="center">
+
+# Janice Benita F
+
+### AI • Machine Learning • Computer Vision Enthusiast
+
+🎓 B.Tech – Information Technology (2023–2027)
+
+📧 janicebenita123@gmail.com
+
+🔗 GitHub  
+https://github.com/Janicebenita
+
+🔗 LinkedIn  
+https://linkedin.com/in/janice13
+
+</div>
+
+---
+
+# 🤝 Contributions
+
+Contributions, feedback, and suggestions are welcome!
+
+## Steps:
+1️⃣ Fork the repository  
+2️⃣ Create a feature branch  
+3️⃣ Commit your changes  
+4️⃣ Push to GitHub  
+5️⃣ Open a Pull Request  
+
+---
+
+# ⭐ Support This Project
+
+If you found this project useful:
+
+⭐ Star the repository  
+🍴 Fork the project  
+💡 Share your feedback  
+🚀 Contribute improvements  
+
+---
+
+<div align="center">
+
+# 🏗️ Building Smarter Infrastructure Inspection using AI
+
+### Powered by Deep Learning & Explainable AI
+
+⭐ Star This Repository If You Like The Project ⭐
+
+</div>
