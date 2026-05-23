@@ -15,12 +15,6 @@
 
 ---
 
-### 🚀 Powered by YOLOv8 • ResNet-18 • Grad-CAM • PyTorch • Flask
-
-</div>
-
----
-
 # 📌 Project Overview
 
 Inspection of concrete structures is a critical process in infrastructure maintenance. Traditional manual inspection methods are:
