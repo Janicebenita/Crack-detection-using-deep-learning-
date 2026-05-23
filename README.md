@@ -12,17 +12,6 @@
 <img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
 
 <br><br>
-
-# 🏗️ AI-Based Concrete Crack Detection & Localization System
-
-### Intelligent Infrastructure Inspection using Deep Learning, Object Detection & Explainable AI
-
----
-
-### 🚀 Powered by YOLOv8 • ResNet-18 • Grad-CAM • PyTorch • Flask
-
-</div>
-
 ---
 
 # 📌 Project Overview
