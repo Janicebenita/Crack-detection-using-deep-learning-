@@ -1,9 +1,20 @@
-# 🚧 AI-Powered Concrete Crack Detection System
-### Deep Learning • Computer Vision • Explainable AI • Grad-CAM
+# 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
+
+## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
 
 <p align="center">
-  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="90%">
+  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="85%">
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+</p>
+
+---
+
 ## 📊 Performance Highlights
 
 | Metric | Value |
@@ -13,31 +24,11 @@
 | Explainability | Grad-CAM |
 | Application | Infrastructure Inspection |
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-</p>
-
-
-### 🚀 Built using ResNet-18 • Grad-CAM • PyTorch • Flask
-
-</div>
-
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-Manual inspection of concrete structures is often:
-
-❌ Time-consuming  
-❌ Expensive  
-❌ Subjective  
-❌ Difficult to scale  
-❌ Dependent on human expertise  
-
-Traditional infrastructure inspection workflows struggle with consistency, efficiency, and operational cost.
+Traditional infrastructure crack inspection is time-consuming and labor-intensive. This project automates crack detection using deep learning and explainable AI techniques to improve inspection efficiency and reliability in real-world environments.
 
 This project introduces an **AI-powered automated crack detection system** capable of detecting cracks in concrete surfaces using:
 
