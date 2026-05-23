@@ -66,7 +66,7 @@ Additionally, the project integrates **Grad-CAM Explainable AI visualization** t
 # 🖼️ System Demonstration
 
 <p align="center">
-  <img src="project_overview.png" width="1000"/>
+  <img src="project_overview.png" width="80%"/>
 </p>
 
 ---
@@ -139,7 +139,7 @@ The confusion matrix demonstrates strong classification capability with:
 ✔️ Balanced Prediction Performance  
 
 <p align="center">
-  <img src="confusion_matrix.png" width="900"/>
+  <img src="confusion_matrix.png" width="45%"/>
 </p>
 
 ---
@@ -154,7 +154,7 @@ The ROC Curve demonstrates the discriminative capability of the ResNet-18 model.
 - Strong sensitivity and specificity balance
 
 <p align="center">
-  <img src="roc_curve_analysis.png" width="1000"/>
+  <img src="roc_curve_analysis.png" width="45%"/>
 </p>
 
 ---
