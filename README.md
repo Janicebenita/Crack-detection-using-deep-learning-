@@ -12,11 +12,6 @@
 | Model | ResNet-18 |
 | Explainability | Grad-CAM |
 | Application | Infrastructure Inspection |
-<h1 align="center">AI-Powered Concrete Crack Detection System</h1>
-
-<p align="center">
-  <b>Deep Learning • Computer Vision • Explainable AI • Grad-CAM</b>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -25,13 +20,6 @@
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
 </p>
 
-<br><br>
-
-# 🏗️ AI-Based Automated Concrete Crack Detection System
-
-### Intelligent Infrastructure Inspection using Deep Learning & Explainable AI
-
----
 
 ### 🚀 Built using ResNet-18 • Grad-CAM • PyTorch • Flask
 
