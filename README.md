@@ -2,7 +2,7 @@
 ## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
 
 <p align="center">
-  <img src="assets/banner-ai-crack.png" alt="AI Crack Detection Banner" width="100%">
+  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="100%">
 </p>
 
 <h1 align="center">AI-Powered Concrete Crack Detection System</h1>
