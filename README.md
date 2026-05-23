@@ -201,7 +201,7 @@ The ROC Curve demonstrates excellent crack vs non-crack discrimination capabilit
 - Strong classification reliability
 
 <p align="center">
-  <img src="roc_curve_analysis.png" width="1000"/>
+  <img src="roc_curve_analysis.png" width="45%"/>
 </p>
 
 ---
