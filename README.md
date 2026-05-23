@@ -1,10 +1,17 @@
-# 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
-## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
+# 🚧 AI-Powered Concrete Crack Detection System
+### Deep Learning • Computer Vision • Explainable AI • Grad-CAM
 
 <p align="center">
-  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="100%">
+  <img src="banner-ai-crack.png" alt="AI Crack Detection Banner" width="90%">
 </p>
+## 📊 Performance Highlights
 
+| Metric | Value |
+|---|---|
+| Accuracy | 95.7% |
+| Model | ResNet-18 |
+| Explainability | Grad-CAM |
+| Application | Infrastructure Inspection |
 <h1 align="center">AI-Powered Concrete Crack Detection System</h1>
 
 <p align="center">
