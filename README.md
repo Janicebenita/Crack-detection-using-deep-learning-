@@ -12,8 +12,6 @@
 <img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
 
 <br><br>
----
-
 # 📌 Project Overview
 
 Inspection of concrete structures is a critical process in infrastructure maintenance. Traditional manual inspection methods are:
