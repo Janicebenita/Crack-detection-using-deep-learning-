@@ -1,14 +1,22 @@
 # 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
 ## 🧠 Deep Learning + Computer Vision for Smart Infrastructure Inspection
 
-<div align="center">
+<p align="center">
+  <img src="assets/banner-ai-crack.png" alt="AI Crack Detection Banner" width="100%">
+</p>
 
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/PyTorch-Deep_Learning-red?style=for-the-badge&logo=pytorch"/>
-<img src="https://img.shields.io/badge/OpenCV-Computer_Vision-green?style=for-the-badge&logo=opencv"/>
-<img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
-<img src="https://img.shields.io/badge/Explainable_AI-GradCAM-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Infrastructure-AI_Inspection-orange?style=for-the-badge"/>
+<h1 align="center">AI-Powered Concrete Crack Detection System</h1>
+
+<p align="center">
+  <b>Deep Learning • Computer Vision • Explainable AI • Grad-CAM</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+</p>
 
 <br><br>
 
