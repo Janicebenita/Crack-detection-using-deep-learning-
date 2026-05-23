@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/OpenCV-Computer_Vision-orange?style=for-the-badge&logo=opencv"/>
 <img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
 
-<br><br>
+
 
 ---
 
