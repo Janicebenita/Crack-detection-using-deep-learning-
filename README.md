@@ -10,27 +10,33 @@
 <img src="https://img.shields.io/badge/Explainable_AI-GradCAM-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/OpenCV-Computer_Vision-orange?style=for-the-badge&logo=opencv"/>
 <img src="https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge&logo=flask"/>
-
-
-
----
+</div>
+<p align="center">
+  <img src="banner-ai-crack.png" width="80%"/>
+</p>
 
 # 📌 Project Overview
 
-Inspection of concrete structures is a critical process in infrastructure maintenance. Traditional manual inspection methods are:
+Inspection of concrete structures is a critical process in infrastructure maintenance.
 
-❌ Time-consuming  
-❌ Expensive  
-❌ Subjective  
-❌ Difficult to scale  
-❌ Prone to human error  
+Traditional manual inspection methods are:
+
+❌ Time-consuming<br>
+❌ Expensive<br>
+❌ Subjective<br>
+❌ Difficult to scale<br>
+❌ Prone to human error
+
+<br>
 
 To address these challenges, this project introduces an **AI-powered hybrid crack detection and localization system** that combines:
 
-✅ YOLOv8 Object Detection  
-✅ ResNet-18 Deep Feature Learning  
-✅ Explainable AI using Grad-CAM  
-✅ Computer Vision Techniques  
+✅ YOLOv8 Object Detection<br>
+✅ ResNet-18 Deep Feature Learning<br>
+✅ Explainable AI using Grad-CAM<br>
+✅ Computer Vision Techniques
+
+<br>
 
 The system automatically detects cracks, localizes damaged regions, classifies crack presence, and visually explains model predictions.
 
@@ -54,7 +60,7 @@ The system automatically detects cracks, localizes damaged regions, classifies c
 
 ---
 
-# 🧠 Revised System Workflow
+# 🧠 System Workflow
 
 <div align="center">
 
@@ -79,7 +85,7 @@ Final Crack Visualization
 # 🖼️ Complete System Architecture
 
 <p align="center">
-  <img src="images/architecture_pipeline.png" width="1000"/>
+  <img src="architecture_pipeline.png" width="50%"/>
 </p>
 
 ---
@@ -87,6 +93,7 @@ Final Crack Visualization
 # 🔍 How the System Works
 
 ## 📥 1. Input Image
+
 Concrete surface images are uploaded into the system for inspection.
 
 ---
@@ -100,45 +107,22 @@ The preprocessing pipeline includes:
 - Data Augmentation
 - Noise Reduction
 
-These steps improve model robustness and detection performance.
-
 ---
 
 ## 🧠 3. Hybrid Deep Learning Pipeline
 
 ### 🔹 YOLOv8 Object Detection
 
-YOLOv8 is used for:
-
-✔️ Crack localization  
-✔️ Bounding box generation  
-✔️ Multi-crack region detection  
-
----
+- Crack localization
+- Bounding-box generation
+- Multi-crack detection
 
 ### 🔹 ResNet-18 Backbone
 
-ResNet-18 is used for:
+- Feature extraction
+- Crack classification
+- Deep feature learning
 
-✔️ Feature extraction  
-✔️ Crack classification  
-✔️ Deep representation learning  
-
-The combination of YOLOv8 + ResNet-18 improves both:
-
-- Detection accuracy
-- Crack localization capability
-
----
-
-## 📊 4. Detection & Classification
-
-The system:
-
-- Detects crack regions
-- Classifies cracked/non-cracked surfaces
-- Extracts individual crack segments
-- Saves highlighted crack outputs
 
 ---
 
@@ -169,7 +153,7 @@ The final output includes:
 # 🖼️ System Demonstration
 
 <p align="center">
-  <img src="project_overview.png" width="1000"/>
+  <img src="project_overview.png" width="45%"/>
 </p>
 
 ---
@@ -202,7 +186,7 @@ The confusion matrix demonstrates strong crack classification capability.
 ✔️ Balanced Classification Performance  
 
 <p align="center">
-  <img src="confusion_matrix.png" width="900"/>
+  <img src="confusion_matrix.png" width="45%"/>
 </p>
 
 ---
@@ -421,7 +405,7 @@ This project was developed for educational, research, and industry-oriented lear
 
 <div align="center">
 
-# 🏢 M/s Larsen & Toubro – Divisional Corporate
+## 🏢 M/s Larsen & Toubro – Divisional Corporate
 
 </div>
 
